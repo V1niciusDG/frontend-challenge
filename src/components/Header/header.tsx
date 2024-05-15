@@ -6,7 +6,7 @@ import {
   PrimaryInput,
   PrimaryInputWSearchIcon,
 } from '../Inputs/Primary/styled';
-import { Bag } from './bag/bag';
+import { CartControl } from './bag/cart-control';
 
 const sairaStencil = Saira_Stencil_One({
   weight: ['400'],
@@ -23,7 +23,7 @@ export function Header(props: HeaderProps) {
         <PrimaryInputWSearchIcon placeholder="Procurando por algo específico?" />
       </div>
       <div>
-        <Bag />
+        <CartControl />
       </div>
     </TagHeader>
   );
