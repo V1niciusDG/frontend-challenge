@@ -21,11 +21,12 @@ export const ShoppingBagContainer = styled.div`
 export const CartCount = styled.span`
   width: 17px;
   height: 26px;
+  border-radius: 100%;
+  padding: 0px 5px;
+  font-size: 10px;
 
   background-color: var(--delete-color);
   color: white;
 
-  position: absolute;
-  right: -10;
-  top: 50%;
+  margin-left: -10px;
 `;

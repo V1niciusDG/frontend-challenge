@@ -21,8 +21,6 @@ export function Header(props: HeaderProps) {
       <Logo className={sairaStencil.className}>Capputeeno</Logo>
       <div>
         <PrimaryInputWSearchIcon placeholder="Procurando por algo específico?" />
-      </div>
-      <div>
         <CartControl />
       </div>
     </TagHeader>
