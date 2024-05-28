@@ -5,6 +5,13 @@ export const TagHeader = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 20px 160px; //20px de altura e 160 de largura
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
 `;
 
 export const Logo = styled.a`
