@@ -1,7 +1,15 @@
-import { FilterList } from './styled';
+import { FilterList, FilterItems } from './styled';
 
-interface FilterByTypeProps {}
+export interface FilterItemProps {
+  selected?: boolean;
+}
 
-export function FilterBar(props: FilterByTypeProps) {
-  return <FilterList></FilterList>;
+export function FilterByType() {
+  return (
+    <FilterList>
+      <FilterItems>Todos os produtos</FilterItems>
+      <FilterItems>Camisetas</FilterItems>
+      <FilterItems>Canecas</FilterItems>
+    </FilterList>
+  );
 }
